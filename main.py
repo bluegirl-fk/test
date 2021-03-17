@@ -212,3 +212,7 @@ def math_operation(aa_and_num_dict):
 
 
 #math_operation(compare_files(scriptdir))
+
+#just testing simple stuff
+print(min('a', 'A', '0'))
+print(max("a","z","0","p"))

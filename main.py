@@ -216,3 +216,7 @@ def math_operation(aa_and_num_dict):
 #just testing simple stuff
 print(min('a', 'A', '0'))
 print(max("a","z","0","p"))
+print(round(3.712))
+print(round(3.712, 1)) #rounds to one digit (second parameter is to set the number of decimal numbers cuz by default this method rounds to zero, 3.7 to 4)
+#to got documentation:
+help(round)
